@@ -8,7 +8,7 @@
     "storage":"3B會議室"
   }
  ],
- "equipmentList": [
+ "getAllEquipment": [
           {
             "id":1,
             "sno":"TGFC1RCS002",
