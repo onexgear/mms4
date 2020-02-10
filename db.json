@@ -9,30 +9,33 @@
   }
  ],
  "getAllEquipment": [
-          {
-            "id":1,
-            "sno":"TGFC1RCS002",
-            "name":"投影機",
-            "parts":"",
-            "storage":"JENNIFER",
-            "status":true
-          },
-          {
-            "id":2,
-            "sno":"TGFC1RCS001",
-            "name":"DELL筆電",
-            "parts":"滑鼠(TGFC1RCS001)",
-            "storage":"3B會議室",
-            "status":true
-          },
-         {
-            "id":3,
-            "sno":"TGFC1RCS003",
-            "name":"ASUS 平板電腦",
-            "parts":"滑鼠-無線(TGFC1RCS005)",
-            "storage":"3A會議室",
-            "status":false
-          }
+      {
+       "id":1,
+       "sno":"TGFC1RCS002",
+       "name":"投影機",
+       "parts":"",
+       "storage":"JENNIFER",
+       "status":true,
+       "reservation":true
+      },
+      {
+       "id":2,
+       "sno":"TGFC1RCS001",
+       "name":"DELL筆電",
+       "parts":"滑鼠(TGFC1RCS001)",
+       "storage":"3B會議室",
+       "status":true,
+       "reservation":false
+      },
+      {
+       "id":3,
+       "sno":"TGFC1RCS003",
+       "name":"ASUS 平板電腦",
+       "parts":"滑鼠-無線(TGFC1RCS005)",
+       "storage":"3A會議室",
+       "status":false,
+       "reservation":true
+      }
   ],
  "getUserByGroup":[
         
